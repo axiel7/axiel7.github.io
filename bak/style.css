@@ -1,0 +1,42 @@
+* { font-family: 'Arial' }
+
+.centered { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+img {
+    border-radius: 50%;
+    width: 50%;
+}
+
+body {
+    animation-name: backgroundColorPalette;
+    animation-duration: 5.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: #6B705C;
+    }
+    20% {
+        background: #A5A58D;
+    }
+    40% {
+        background: #B7B7A4;
+    }
+    60% {
+        background: #FFE8D6;
+    }
+    80% {
+        background: #DDBEA9;
+    }
+    100% {
+        background: #CB997E;
+    }
+}
