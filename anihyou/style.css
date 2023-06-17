@@ -28,9 +28,21 @@
     border-radius: 50%;
 }
 
-a :hover {
-    opacity: 0.8;
-    color: red !important;
+a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 h1, p, a {
