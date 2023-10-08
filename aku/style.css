@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #EAE9E9;
+}
+
 * {
     font-family: 'Arial'
 }
@@ -53,7 +57,7 @@
 }
 
 h1 {
-    color: black;
+    color: var(--accent-color);
 }
 
 a:hover {
@@ -61,13 +65,13 @@ a:hover {
 }
 
 a {
-    color: #EDD9F9;
+    color: var(--accent-color);
     text-decoration: none;
 }
 
 .link {
     font-size: large;
-    border: 2px solid #EDD9F9;
+    border: 2px solid var(--accent-color);
     border-radius: 10px;
     padding: 10px;
 }
@@ -85,10 +89,10 @@ body {
 
 @keyframes backgroundColorPalette {
     0% {
-        background: #A18DB5;
+        background: #3F8BE7;
     }
 
     100% {
-        background: #898495;
+        background: #3676DE;
     }
 }
