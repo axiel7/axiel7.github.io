@@ -1,0 +1,116 @@
+:root {
+    --accent-color: #EAE9E9;
+}
+
+* {
+    font-family: 'Arial'
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.column {
+    position: center;
+    width: 100%;
+    float: center;
+    box-sizing: border-box;
+}
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+        width: 85%;
+        padding: 0;
+    }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+    .container {
+        width: 80%;
+    }
+
+    .column,
+    .columns {
+        margin-left: 0;
+    }
+
+    .column:first-child,
+    .columns:first-child {
+        margin-left: 0;
+    }
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.plain-link {
+    color: var(--accent-color);
+    text-decoration: underline;
+}
+
+.plain-link:hover {
+    opacity: 0.7;
+}
+
+p {
+    color: var(--accent-color);
+}
+
+.link {
+    color: var(--accent-color);
+    font-size: large;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.link:hover {
+    opacity: 0.7;
+}
+
+.link-container {
+    padding-top: 2px;
+}
+
+.inline-block {
+    display: inline-block
+}
+
+body {
+    animation-name: backgroundColorPalette;
+    animation-duration: 5.0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: #104547;
+    }
+
+    100% {
+        background: #176164;
+    }
+}
