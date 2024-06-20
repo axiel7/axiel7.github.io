@@ -82,7 +82,7 @@ a {
 
 body {
     animation-name: backgroundColorPalette;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
