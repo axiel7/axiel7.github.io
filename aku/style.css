@@ -1,9 +1,9 @@
 :root {
-    --accent-color: #EAE9E9;
+    --accent-color: #eae9e9;
 }
 
 * {
-    font-family: 'Arial'
+    font-family: "Arial";
 }
 
 .container {
@@ -82,17 +82,17 @@ a {
 
 body {
     animation-name: backgroundColorPalette;
-    animation-duration: 5.0s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 @keyframes backgroundColorPalette {
     0% {
-        background: #3F8BE7;
+        background: #1b3149;
     }
 
     100% {
-        background: #3676DE;
+        background: #d67558;
     }
 }
