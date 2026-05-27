@@ -1,0 +1,86 @@
+* {
+    font-family: "Arial";
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.trailing {
+    float: right;
+    line-height: 200%;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.center-vertical-container {
+    left: 50%;
+    transform: translate(50%, 0%);
+    display: table;
+    text-align: center;
+}
+
+.center-vertical-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.badge-container {
+    display: flex;
+    justify-content: center; /* Centers the links horizontally on the screen */
+    align-items: center; /* Centers the links vertically relative to each other */
+    flex-wrap: wrap; /* Allows them to wrap gracefully on small mobile screens */
+}
+
+a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+h1,
+h2,
+p,
+a {
+    color: #ffffff;
+}
+
+p {
+    font-size: large;
+}
+
+body {
+    animation-name: backgroundColorPalette;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: #5c6bc0;
+    }
+    100% {
+        background: #6c7ac6;
+    }
+}
