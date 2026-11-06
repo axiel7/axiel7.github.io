@@ -56,6 +56,13 @@
     background-position: center;
 }
 
+.avatar-sprite {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-position: center;
+}
+
 h1 {
     color: var(--accent-color);
 }
